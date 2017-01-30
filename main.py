@@ -1,4 +1,4 @@
-import items
+import items, tiles
 
 
 def main():
@@ -6,6 +6,9 @@ def main():
 	print(gold)
 	dagger = items.Dagger()
 	print(dagger)
+	first = tiles.StartingRoom(1,2)
+	print(first.intro_text())
+
 
 
 if __name__ == "__main__":

@@ -7,4 +7,7 @@ class Enemy(object):
 	def is_alive(self):
 		return self.hp > 0
 
-		
+
+class Rogue(Enemy):
+	def __init__(self):
+		super().__init__(name = 'Rogue', hp = 9, damage = 'd8')
