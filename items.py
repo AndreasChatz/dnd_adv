@@ -30,5 +30,12 @@ class Dagger(Weapon):
 		super().__init__(name = 'Dagger', 
 			description = 'A small finesse weapon', 
 			value = 2, 
-			damage = 'd4')
+			damage = 4)
+
+class EpicDagger(Weapon):
+	def __init__(self):
+		super().__init__(name = 'Epic Dagger', 
+			description = 'A small really sharp dagger', 
+			value = 120, 
+			damage = 14)
 

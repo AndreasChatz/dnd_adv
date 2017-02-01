@@ -10,4 +10,4 @@ class Enemy(object):
 
 class Rogue(Enemy):
 	def __init__(self):
-		super().__init__(name = 'Rogue', hp = 9, damage = 'd8')
+		super().__init__(name = 'Rogue', hp = 20, damage = 5)
